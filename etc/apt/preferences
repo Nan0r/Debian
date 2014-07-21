@@ -1,0 +1,19 @@
+Package: *
+Pin: origin packages.linuxmint.com
+Pin-Priority: 900
+
+Package: *
+Pin: origin debian.linuxmint.com
+Pin-Priority: 700
+
+Package: *
+Pin: release a=testing
+Pin-Priority: 600
+
+Package: *
+Pin: release a=unstable
+Pin-Priority: 200
+
+Package: *
+Pin: release a=experimental
+Pin-Priority: 50
