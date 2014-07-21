@@ -1,0 +1,34 @@
+## Debian Stable  
+
+deb http://ftp.fr.debian.org/debian stable main contrib non-free
+deb-src http://ftp.fr.debian.org/debian stable main contrib non-free
+
+deb http://ftp.debian.org/debian/ wheezy-updates main contrib non-free
+deb-src http://ftp.debian.org/debian/ wheezy-updates main contrib non-free
+
+deb http://security.debian.org/ wheezy/updates main contrib non-free
+deb-src http://security.debian.org/ wheezy/updates main contrib non-free
+
+
+## Debian Testing 
+
+deb http://ftp.fr.debian.org/debian testing main contrib non-free
+deb-src http://ftp.fr.debian.org/debian testing main contrib non-free
+
+deb http://ftp.debian.org/debian/ jessie-updates main contrib non-free
+deb-src http://ftp.debian.org/debian/ jessie-updates main contrib non-free
+
+deb http://security.debian.org/ jessie/updates main contrib non-free
+deb-src http://security.debian.org/ jessie/updates main contrib non-free
+
+
+## Debian Sid 
+
+deb http://ftp.fr.debian.org/debian unstable main contrib non-free
+deb-src http://ftp.fr.debian.org/debian unstable main contrib non-free
+
+
+## Debian Experimental 
+
+deb http://ftp.fr.debian.org/debian experimental main contrib non-free
+deb-src http://ftp.fr.debian.org/debian experimental main contrib non-free
