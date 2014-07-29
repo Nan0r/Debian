@@ -11,3 +11,4 @@ sed -i -e "s/$PREFIX = "\/usr\/local\/bin";/$BASEDIR = "\/usr\/bin";/g" etc/nfse
 sed -i -e "s/$USER    = "netflow";/$USER    = "nfsen";/g" etc/nfsen.conf
 sed -i -e "s/$WWWGROUP = "www";/$WWWGROUP = "www-data";/g" etc/nfsen.conf
 .install.pl etc/nfsen.conf
+ln -s /opt/nfsen/bin/nfsen /etc/init.d/nfsen
