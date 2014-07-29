@@ -39,3 +39,18 @@ deb http://packages.linuxmint.com/ debian main upstream import
 deb http://debian.linuxmint.com/latest testing main contrib non-free
 deb http://debian.linuxmint.com/latest/security testing/updates main contrib non-free
 deb http://debian.linuxmint.com/latest/multimedia testing main non-free
+
+## Kali Linux 
+deb http://http.kali.org/kali kali-dev main contrib non-free
+deb http://http.kali.org/kali kali-dev main/debian-installer
+deb-src http://http.kali.org/kali kali-dev main contrib non-free
+
+deb http://http.kali.org/kali kali main contrib non-free
+deb http://http.kali.org/kali kali main/debian-installer
+deb-src http://http.kali.org/kali kali main contrib non-free
+
+deb http://security.kali.org/kali-security kali/updates main contrib non-free
+deb-src http://security.kali.org/kali-security kali/updates main contrib non-free
+
+deb http://repo.kali.org/kali kali-bleeding-edge main
+deb-src http://repo.kali.org/kali kali-bleeding-edge main
