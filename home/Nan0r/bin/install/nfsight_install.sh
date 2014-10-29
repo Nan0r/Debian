@@ -1,7 +1,7 @@
 #!/bin/sh
 aptitude install libnumber-format-perl picviz libdbd-mysql-perl
 wget http://sourceforge.net/projects/nfsight/files/nfsight-beta-20140905.tgz 
-tar zxvf /home/rlaunay/src/nfsight-beta-20140905.tgz 
+tar zxvf nfsight-beta-20140905.tgz
 cd nfsight-beta-20140905
 cp /home/rlaunay/src/nfsight-beta-20140905/backend/nfsight.pm /opt/nfsen/plugins/
 mkdir /opt/nfsen/plugins/nfsight
