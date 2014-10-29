@@ -1,4 +1,5 @@
 #!/bin/bash
+cd /tmp
 wget http://sourceforge.net/projects/nfsen/files/stable/nfsen-1.3.6p1/nfsen-1.3.6p1.tar.gz
 tar -xvzf nfsen-1.3.6p1.tar.gz
 cd nfsen-1.3.6p1
