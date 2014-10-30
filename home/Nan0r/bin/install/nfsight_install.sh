@@ -4,12 +4,12 @@ cd /tmp
 wget http://sourceforge.net/projects/nfsight/files/nfsight-beta-20140905.tgz 
 tar zxvf nfsight-beta-20140905.tgz
 cd nfsight-beta-20140905
-cp /home/rlaunay/src/nfsight-beta-20140905/backend/nfsight.pm /opt/nfsen/plugins/
+cp backend/nfsight.pm /opt/nfsen/plugins/
 mkdir /opt/nfsen/plugins/nfsight
-chgrp -R www-data /var/www/nfsen/plugins/nfsight
+chgrp -R www-data /opt/nfsen/plugins/nfsight
 mkdir /var/www/nfsight
 cp -R frontend/* /var/www/nfsight/
-chgrp -R www-data /var/www/nfsight 
+chgrp -R www-data /var/www/nfsight
 chmod g+w /var/www/nfsight/
 chmod g+w /opt/nfsen/plugins/nfsight
 chmod g+w /var/www/nfsen/plugins/nfsight/cache
